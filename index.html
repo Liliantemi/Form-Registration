@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2>Lilian's Axia Registration</h2>
+    </header>
+
+    <h4>Please fill the form below to get on the Axia train</h4>
+
+    <main>
+        <!--form area-->
+        <section class="container">
+            <form>
+                <div class="fn">
+                    <label for="firstname">First Name</label> 
+                    <br />
+                    <input class="input1" name="firstame" placeholder="Enter your first name">
+                </div>
+
+                <div class="fn">
+                    <label for="lastname">Last Name</label> 
+                    <br />
+                    <input class="input1" name="lastname" placeholder="Enter your last name">
+                </div>
+
+                <div class="fn">
+                    <label for="gender">Gender</label> 
+                    <br />
+                    <select class="input2" name="gender" value="female">
+                        <option value=""disabled selected>Select your Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Prefer not to say</option>
+                    </select>
+                </div>
+
+                <div class="fn">
+                    <label for="age">Age (optional)</label>
+                    <br />
+                    <input class="input1" type="date">
+                </div>
+
+                <div class="fn">
+                    <label for="educationalbackground">Educational Background</label> 
+                    <br />
+                    <select class="input2" name="educationalbackground" value="Bsc">
+                        <option value=""disabled selected>Select level</option>
+                        <option value="">Phd</option>
+                        <option value="">Msc</option>
+                        <option value="">Bsc</option>
+                        <option value="">HND</option>
+                        <option value="">OND</option>
+                        <option value="">SSCE</option>
+                        <option value="">FSLC</option>
+                    </select>
+                </div>
+
+                <div class="fn">
+                    <label for="laptop">Do you have a laptop?</label>
+                    <br />
+                    <div class="radio">
+                     <input type="radio" name="laptop" />
+                     <option value="">Yes</option>
+
+                     <input type="radio" name="laptop" />
+                     <option value="">No</option>
+                    </div>
+                </div>
+
+                <div class="fn">
+                    <label for="question">How did you hear about Axia?</label>
+                    <br />
+                    <input type="checkbox" name="question" />
+                    <label for="question">Whatsapp</label>
+                    <br />
+                    <input type="checkbox" name="question" />
+                    <label for="question">Twitter</label>
+                    <br />
+                    <input type="checkbox" name="question" />
+                    <label for="question">Instagram</label>
+                    <br />
+                    <input type="checkbox" name="question" />
+                    <label for="question">LinkedIn</label>
+                    <br />
+                    <input type="checkbox" name="question" />
+                    <label for="question">Others</label>
+                </div>
+
+                <div class="fn">
+                    <label for="about">Tell us about yourself</label> 
+                    <br />
+                    <textarea class="text" name="text" placeholder="type here" rows="8" cols="41"></textarea>
+                </div>
+
+                <div class="fn">
+                    <label for="country">Country</label> 
+                    <br />
+                    <select class="input2" name="country">
+                        <option value=""disabled selected>Select your Country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Ghana</option>
+                        <option value="">South Africa</option>
+                        <option value="">Zimbabwe</option>
+                        <option value="">Kenya</option>
+                        <option value="">Togo</option>
+                        <option value="">Tanzania</option>
+                        <option value="">Egypt</option>
+                        <option value="">London</option>
+                        <option value="">Italy</option>
+                        <option value="">Canada</option>
+                    </select>
+                </div>
+
+                <div class="fn">
+                    <button class="button hover">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
